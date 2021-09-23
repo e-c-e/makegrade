@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">银行利率计算器</view>
+  <view>
+    <input placeholder="请输入本金" type="number" bindblur="benjinNum"></input>
+    <input placeholder="请输入利率" type="number" bindblur="lilvNum"></input>
+  </view>
+  <view class="title1">五年后所得财产数：{{S}}</view>
+  <button type="primary" bindtap="calc">求和</button> 
+  ***************************************
+  <view class="name">陈玉平电科19-2</view>
+  <view class="name">至仁不为恩,至义不为功</view>
+</view>
