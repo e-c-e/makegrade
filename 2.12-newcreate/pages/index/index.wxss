@@ -1,0 +1,27 @@
+/**index.wxss**/
+.name{
+  font-family: cursive;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: end;
+  margin-bottom: 15px;
+  color: blue;
+}
+.box{
+  margin: 20rpx;
+  padding: 20rpx;
+  border: 1px solid rgba(15, 33, 85, 0.863);
+}
+.title{
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: red ;
+}
+.test{
+  text-align: center;
+  color: red;
+}
