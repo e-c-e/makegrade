@@ -1,0 +1,57 @@
+/* pages/taishan/taishan.wxss */
+swiper{
+    height: 400rpx;
+    width: 750rpx;
+  }
+  swiper image{
+    width: 100%;
+}
+.btnLayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20rpx;
+}
+button{
+    width: 30%;
+}
+.box{
+    border: 1px solid rgb(240, 241, 236);
+  }
+  .title{
+      font-size: large;
+      text-align: center;
+      margin-bottom: 15px;
+      color: red;
+  }
+  .name_and_class{
+      font-size: 15px;
+      text-align: end;
+      margin-bottom: 15px;
+      color: blue;
+      font-family: cursive;
+      font-style: italic;
+      font-weight: bold;
+  }
+  .boxMode101{
+    width: 70%;
+    height: 70px;
+    background-color: yellow;
+    border: 3px dashed #ff0000;
+    padding: 20px;
+    margin: 20px;
+  }
+  .boxMode102{
+    width: 80%;
+    height: 60px;
+    border: 5px solid rgb(0, 255, 0);
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .boxMode103{
+    width: 80%;
+    height: 100px;
+    border: 5px dotted rgba(0, 0,255, 0.3);
+    padding-left: 20px;
+    margin: 0 20px;
+  }

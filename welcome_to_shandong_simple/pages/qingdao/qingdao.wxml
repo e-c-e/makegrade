@@ -1,0 +1,47 @@
+<!--pages/qingdao/qingdao.wxml-->
+<swiper class="banner" indicator-dots='true' mode="scaleToFill" indicator-color='#333' indicator-active-color='#f30' autoplay='true'>
+     <swiper-item> 
+     <image src='/images/q1.jpg' mode="scaleToFill" ></image>
+     </swiper-item>
+     <swiper-item> 
+     <image src='/images/q2.jpg' mode="scaleToFill"></image>
+     </swiper-item>
+     <swiper-item> 
+     <image src='/images/q3.jpg' mode="scaleToFill"></image>
+     </swiper-item>
+     <swiper-item> 
+     <image src='/images/q4.jpg' mode="scaleToFill"></image>
+     </swiper-item>
+</swiper>
+<navigator url="/pages/map/map">
+    <view class="waikuang">
+        <icon type="success" class="myleft"></icon>
+        <view class="mycenter">地图</view>
+        <image src="/images/jiantou.png" class="myright"></image>
+    </view>
+</navigator>
+<!-- 第三部分 -->
+<view class='selection'>
+    <!-- 头部文字 -->
+    <view class="header">
+      <text style='margin-left: 5px;'>咨询</text>
+      <text class='all'>更多</text>
+    </view>
+    <!-- 内容 -->
+    <view class='list-item' wx:for="{{HotImgUrls}}" wx:key="url" wx:for-item="item">
+      <!-- 文章图片 -->
+      <view class='list-item-image'>
+        <image src='{{item.url}}'  class="slide-image" mode='scaleToFill'></image>
+      </view>
+      <!-- 文章内容 -->
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='list-item-text-context' >
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </view>
+
+</view>

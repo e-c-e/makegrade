@@ -1,0 +1,89 @@
+/* pages/qingdao/qingdao.wxss */
+navigator{
+    margin: 5px;
+    font-size: 20px;
+}
+.waikuang{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+.myleft{
+    margin-right: 10px;
+}
+.mycenter{
+    flex:1;
+}
+.myright{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 5px;
+}
+swiper{
+    height: 400rpx;
+    width: 750rpx;
+  }
+swiper image{
+    width: 100%;
+    height: 100%;
+}
+
+page{
+    height: 100%;
+  }
+  .selection{
+    border-bottom: 6px solid #ddd;
+  }
+  .indexcontainer{
+    width: 100%;
+    height: 100%;
+  }
+  .selection{
+    margin-top: 10px;
+  }
+  .slide-image{
+    width: 100%;
+    height: 100%;
+  }
+  .header{
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: green;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .all{
+    margin-right: 5px;
+    color: green;
+  }
+  .list-item{
+    width: 100%;
+    height: 500rpx;
+  }
+  .list-item-image{
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+  }
+  .list-item-text{
+    width: 96%;
+    height: 200rpx;
+   
+  }
+  
+  .list-item-text{
+    margin-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .list-item-text-context{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #999;
+  }

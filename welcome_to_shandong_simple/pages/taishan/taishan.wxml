@@ -1,0 +1,38 @@
+<!--pages/taishan/taishan.wxml-->
+<view class="box">
+    <swiper class="banner" indicator-dots='true' mode="widthFix" indicator-color='#333' indicator-active-color='#f30' autoplay='true'>
+        <swiper-item> 
+        <image src='/images/t1.jpg' mode="widthFix" ></image>
+        </swiper-item>
+        <swiper-item> 
+        <image src='/images/s2.jpg' mode="widthFix"></image>
+        </swiper-item>
+        <swiper-item> 
+        <image src='/images/t3.jpg' mode="widthFix"></image>
+        </swiper-item>
+        <swiper-item> 
+        <image src='/images/t4.jpg' mode="widthFix"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="box">
+    <view class = 'btnLayout'>
+       <button type="primary" bindtap="showTabBar">咨询</button>
+       <button type="primary" bindtap="showTabBar">详情</button>
+       <button type="primary" bindtap="showTabBar">更多</button>
+    </view>
+</view>
+<view class="box">
+    <view class='boxMode101'>
+        <view>泰山，又名岱山、岱宗、岱岳、东岳、泰岳，为五岳之一，位于山东省中部。</view>
+    </view>
+  <view class='boxMode102'>
+    1982年11月8日，泰山被列入国家级风景名胜区。
+  </view>
+  <view style="text-align: center;">
+    <image src="/images/t1.jpg"></image>
+  </view>
+  <view class='boxMode103'>
+    1987年12月12日，泰山被列为世界文化与自然双重遗产。2007年3月7日，被评为国家AAAAA级旅游景区。
+  </view>
+</view>

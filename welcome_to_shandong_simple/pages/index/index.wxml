@@ -1,0 +1,38 @@
+<!--pages/index/index.wxml-->
+
+       <swiper class="banner" indicator-dots='true' mode="widthFix" indicator-color='#333' indicator-active-color='#f30' autoplay='true'>
+              <swiper-item> 
+              <image src='/images/s1.jpg' mode="widthFix" ></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/s2.jpg' mode="widthFix"></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/s3.jpg' mode="widthFix"></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/s4.jpg' mode="widthFix"></image>
+              </swiper-item>
+       </swiper>
+
+<view class="box">
+<view class = 'btnLayout'>
+       <button type="primary" bindtap="showTabBar">日历</button>
+       <button type="primary" bindtap="showTabBar">咨询</button>
+       <button type="primary" bindtap="showTabBar">更多</button>
+</view>
+</view>
+
+<view class="box">
+       <view class="header">
+              <text style='margin-left: 5px;'>大美山东</text>
+              <text class='all'>更多</text>
+       </view>
+  <view style="text-align: center;">
+    <image src="/images/sd.jpg"></image>
+  </view>
+  <view class='text1'>
+         山东省（Shandong）是中国华东地区的一个沿海省份，简称鲁，省会济南。位于中国东部沿海北纬34°22.9′-38°24.01′，东经114°47.5′-122°42.3′之间，自北而南与河北、河南、安徽、江苏4省接壤。
+  </view>
+</view>
+

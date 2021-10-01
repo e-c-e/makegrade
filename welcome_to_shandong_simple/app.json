@@ -1,0 +1,53 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/taishan/taishan",
+        "pages/quancheng/quancheng",
+        "pages/sankong/sankong",
+        "pages/qingdao/qingdao",
+        "pages/map/map"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "好客山东欢迎您",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#000",
+        "selectedColor": "#00f",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/首页未选中.png",
+                "selectedIconPath": "/images/首页选中.png"
+            },
+            {
+                "pagePath": "pages/taishan/taishan",
+                "text": "泰山",
+                "iconPath": "/images/山-未选中.png",
+                "selectedIconPath": "/images/山-选中.png"
+            },
+            {
+                "pagePath": "pages/quancheng/quancheng",
+                "text": "泉城",
+                "iconPath": "/images/泉城-未选中.png",
+                "selectedIconPath": "/images/泉城-选中.png"
+            },
+            {
+                "pagePath": "pages/sankong/sankong",
+                "text": "三孔",
+                "iconPath": "/images/三孔-未选中.png",
+                "selectedIconPath": "/images/三孔-选中.png"
+            },
+            {
+                "pagePath": "pages/qingdao/qingdao",
+                "text": "五月的风",
+                "iconPath": "/images/五月的风-未选中.png",
+                "selectedIconPath": "/images/五月的风-选中.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,41 @@
+<!--pages/sankong/sankong.wxml-->
+<swiper class="banner" indicator-dots='true' mode="widthFix" indicator-color='#333' indicator-active-color='#f30' autoplay='true'>
+              <swiper-item> 
+              <image src='/images/l1.jpg' mode="widthFix" ></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/l2.jpg' mode="widthFix"></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/l3.jpg' mode="widthFix"></image>
+              </swiper-item>
+              <swiper-item> 
+              <image src='/images/l4.jpg' mode="widthFix"></image>
+              </swiper-item>
+</swiper>
+
+<!-- 第三部分 -->
+<view class='selection'>
+    <!-- 头部文字 -->
+    <view class="header">
+      <text style='margin-left: 5px;'>咨询</text>
+      <text class='all'>更多</text>
+    </view>
+    <!-- 内容 -->
+    <view class='list-item' wx:for="{{HotImgUrls}}" wx:key="url" wx:for-item="item">
+      <!-- 文章图片 -->
+      <view class='list-item-image'>
+        <image src='{{item.url}}'  class="slide-image" mode='scaleToFill'></image>
+      </view>
+      <!-- 文章内容 -->
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='list-item-text-context' >
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </view>
+
+</view>
